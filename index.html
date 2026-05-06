@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Irha ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#050816,#13071f,#2b0a3d);
+overflow-x:hidden;
+color:white;
+text-align:center;
+}
+
+.container{
+padding:20px;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+position:relative;
+overflow:hidden;
+}
+
+.hero h1{
+font-size:4rem;
+background:linear-gradient(90deg,#ff4fd8,#ffffff,#ff8ef2);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+animation:glow 2s infinite alternate;
+}
+
+.hero p{
+margin-top:15px;
+font-size:1.2rem;
+color:#f7d9ff;
+width:85%;
+max-width:600px;
+line-height:1.8;
+}
+
+@keyframes glow{
+from{
+text-shadow:0 0 10px #ff4fd8;
+}
+to{
+text-shadow:0 0 30px #ff8ef2;
+}
+}
+
+.btn{
+margin-top:35px;
+padding:15px 35px;
+border:none;
+border-radius:50px;
+background:linear-gradient(45deg,#ff4fd8,#ff8ef2);
+color:white;
+font-size:1rem;
+font-weight:600;
+cursor:pointer;
+transition:0.4s;
+box-shadow:0 0 20px rgba(255,79,216,0.6);
+}
+
+.btn:hover{
+transform:scale(1.08);
+}
+
+.gallery{
+padding:40px 15px;
+}
+
+.gallery h2{
+font-size:2.3rem;
+margin-bottom:25px;
+color:#ffb8f8;
+}
+
+.images{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.images img{
+width:100%;
+height:350px;
+object-fit:cover;
+border-radius:25px;
+box-shadow:0 0 25px rgba(255,255,255,0.2);
+transition:0.4s;
+}
+
+.images img:hover{
+transform:scale(1.04);
+}
+
+.message-box{
+margin:50px auto;
+padding:30px;
+width:90%;
+max-width:750px;
+background:rgba(255,255,255,0.08);
+border:1px solid rgba(255,255,255,0.15);
+backdrop-filter:blur(10px);
+border-radius:25px;
+box-shadow:0 0 30px rgba(255,255,255,0.08);
+}
+
+.message-box h2{
+margin-bottom:20px;
+font-size:2rem;
+color:#ffb8f8;
+}
+
+.message-box p{
+line-height:2;
+font-size:1.08rem;
+color:#fcefff;
+}
+
+.footer{
+padding:40px 20px;
+font-size:1.2rem;
+color:#ffc6f5;
+}
+
+.hearts{
+position:absolute;
+width:100%;
+height:100%;
+overflow:hidden;
+top:0;
+left:0;
+pointer-events:none;
+}
+
+.hearts span{
+position:absolute;
+display:block;
+color:#ff4fd8;
+font-size:20px;
+animation:animate 8s linear infinite;
+bottom:-150px;
+}
+
+@keyframes animate{
+0%{
+transform:translateY(0) rotate(0deg);
+opacity:0;
+}
+10%{
+opacity:1;
+}
+100%{
+transform:translateY(-1000px) rotate(720deg);
+opacity:0;
+}
+}
+
+.music-note{
+margin-top:15px;
+font-size:0.9rem;
+color:#ffdff7;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2.8rem;
+}
+
+.hero p{
+font-size:1rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+
+<div class="hearts">
+<span style="left:5%;animation-delay:0s;">❤</span>
+<span style="left:15%;animation-delay:2s;">❤</span>
+<span style="left:25%;animation-delay:4s;">❤</span>
+<span style="left:35%;animation-delay:1s;">❤</span>
+<span style="left:50%;animation-delay:5s;">❤</span>
+<span style="left:65%;animation-delay:3s;">❤</span>
+<span style="left:75%;animation-delay:6s;">❤</span>
+<span style="left:90%;animation-delay:2s;">❤</span>
+</div>
+
+<h1>Happy Birthday Irha ✨</h1>
+
+<p>
+Today is special because the most beautiful smile,
+the cutest soul and my favourite person was born ❤️
+</p>
+
+<button class="btn" onclick="scrollToMessage()">
+Open Your Surprise 🎁
+</button>
+
+<div class="music-note">
+🎶 Tap anywhere for music
+</div>
+
+</div>
+
+<section class="gallery">
+
+<h2>Your Beautiful Moments 💖</h2>
+
+<div class="images">
+
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+<img src="photo3.jpg">
+
+</div>
+
+</section>
+
+<section class="message-box" id="message">
+
+<h2>Message For You 💌</h2>
+
+<p>
+Dear Irha,<br><br>
+
+I honestly don’t know how someone can be this cute naturally 😭❤️<br><br>
+
+Every time we talk, my mood automatically becomes better.
+Your smile, your eyes, your little expressions...
+everything about you feels special to me ✨<br><br>
+
+Maybe I don’t always say it directly,
+but you really mean a lot to me.<br><br>
+
+You are one of those rare people
+who can make someone feel happy without even trying 🌸<br><br>
+
+On your birthday,
+I just want you to smile a lot,
+stay happy forever,
+and always remember that
+there’s someone who secretly cares about you more than you know 💖<br><br>
+
+And yes...<br>
+today you are officially even more beautiful than yesterday 😌✨<br><br>
+
+Happy Birthday once again princess 👑❤️<br><br>
+
+— Suraj
+</p>
+
+</section>
+
+<div class="footer">
+Made with endless feelings by Suraj ❤️
+</div>
+
+<audio id="music" loop>
+<source src="music.mp3" type="audio/mp3">
+</audio>
+
+<script>
+
+function scrollToMessage(){
+document.getElementById("message").scrollIntoView({
+behavior:"smooth"
+});
+}
+
+document.body.addEventListener("click",function(){
+document.getElementById("music").play();
+},{once:true});
+
+</script>
+
+</body>
+</html>
